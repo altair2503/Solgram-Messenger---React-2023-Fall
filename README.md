@@ -1,3 +1,17 @@
+# Solgram - Web Messenger 
+
+This project use JS library React for the fronted, javascript and firestore for the backend, netlify for online hosting.\
+To view this project you can go to https://solgram.netlify.app. To get access you need only to login with your google account.\
+Key features of this project:
+- PWA
+- Caches users' avatars, your last messages
+- Can be available in offline mode
+
+# Solgram - Review
+
+- First time open <img width="1512" alt="Снимок экрана 2023-11-20 в 19 46 53" src="https://github.com/altair2503/Solgram-Messenger---React-2023-Fall/assets/98675186/c44f3be1-5d4b-4f9e-964e-bd628438a282">
+- After login you can see list of all users and have a chat with them <img width="1512" alt="Снимок экрана 2023-11-20 в 19 47 46" src="https://github.com/altair2503/Solgram-Messenger---React-2023-Fall/assets/98675186/9ba466f0-c26c-48ea-ab83-467fc21cac20">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
