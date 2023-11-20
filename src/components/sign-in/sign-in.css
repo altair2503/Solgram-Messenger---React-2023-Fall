@@ -1,0 +1,29 @@
+.sign-in-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.sing-in-greeting{
+    padding-right: 20px;
+}
+
+.googleSingIn{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.sign-in-interactive{
+    display: flex;
+    border: 1px solid #d9d9ff;
+    border-radius: 20px;
+    background-color: rgba(112, 112, 239, 0.85);
+    padding: 50px;
+}

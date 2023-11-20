@@ -1,0 +1,176 @@
+.chat-main{
+    display: flex;
+    height: 100vh;
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+.chat-left-side{
+    /*width: 400px;*/
+    width: fit-content;
+    border-right: 3px solid rgba(255, 255, 255, 0.2);
+    overflow-y: scroll;
+}
+
+.chat-left-side-user{
+    display: flex;
+    padding: 30px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.chat-left-side-users:hover{
+    cursor: pointer;
+}
+
+.chat-left-side-user-avatar{
+    height: 80px;
+    border-radius: 50%;
+}
+
+.chat-left-side-info{
+    width: fit-content;
+    display: flex;
+    /*border: 3px solid black;*/
+    align-items: center;
+    margin: 20px;
+    font-size: 22px;
+}
+
+.chat-left-side-info-element{
+    width: auto;
+    min-width: min-content;
+    max-width: max-content;
+    margin-right: 20px;
+}
+
+.chat-left-side-info-element-logout{
+    font-size: 25px;
+}
+
+.chat-left-side-info-element-logout:hover{
+    cursor: pointer;
+}
+
+.chat-right-side {
+    /*border: 3px solid #00ff8c;*/
+    width: 100%;
+    position: relative; /* Change position to relative */
+}
+
+.chat-right-side-header{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    height: fit-content;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px 0 0 15px;
+}
+
+.chat-right-side-user-avatar{
+    height: 70px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-ride-side-user-info{
+    padding-left: 20px;
+}
+
+.chat-ride-side-user-info a{
+    font-size: 21px;
+}
+
+.chat-ride-side-user-info i{
+    font-size: 16px;
+}
+
+.chat-right-side-dialog {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow-y: scroll;
+    max-height: 80vh;
+    scroll-behavior: smooth;
+}
+
+.chat-right-side-dialog > .bubble {
+    border-radius: 1em;
+    padding: 0.25em 0.75em;
+    margin: 0.0625em;
+    margin-bottom: 5px;
+    max-width: fit-content;
+    justify-self: start;
+}
+
+.chat-right-side-dialog > .bubble i {
+    font-size: 10px;
+    float: right;
+}
+
+.chat-right-side-dialog > .bubble e {
+    font-size: 17px;
+}
+
+.chat-right-side-dialog > .bubble.sender {
+    margin-right: 20px;
+    background-color: rgba(239, 239, 239, 0.95);
+    color: #2c2c2c;
+    justify-self: end;
+    text-align: right;
+}
+
+.chat-right-side-dialog > .bubble.recipient {
+    margin-left: 20px;
+    background-color: rgba(100, 149, 237, 0.8);
+    color: #fff;
+    justify-self: start;
+}
+/**/
+
+.chat-right-side-footer {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 5px;
+    /*border: 3px solid blue;*/
+    display: flex;
+    align-items: center;
+}
+
+.chat-right-side-footer-input {
+    flex: 1;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.chat-right-side-footer-input:focus {
+    outline: 1px solid rgba(0, 209, 255, 0.5);;;
+    border: 1px solid rgba(0, 209, 255, 0.5);;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.chat-right-side-footer-send {
+    width: 90px; /* Adjust the width as needed */
+    height: 50px; /* Add spacing between input and button if desired */
+    background-color: rgba(0, 209, 255, 0.5);
+    border-radius: 15px;
+}
+
+.chat-right-side-footer-send:hover {
+    cursor: pointer;
+}
+
+.chat-right-side-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    font-size: 35px;
+}
